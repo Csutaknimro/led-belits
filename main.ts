@@ -1,4 +1,4 @@
-maqueen.motorStop(maqueen.Motors.All)
+maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 50)
 basic.showString("Hello!")
 basic.showString("Nimrod")
 basic.showString("9")
