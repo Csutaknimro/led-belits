@@ -12,6 +12,8 @@ basic.showNumber(2)
 basic.showNumber(1)
 basic.showNumber(0)
 basic.showIcon(IconNames.Heart)
+basic.pause(2000)
+maqueen.motorStop(maqueen.Motors.All)
 basic.forever(function () {
     maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
     maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
