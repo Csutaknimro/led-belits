@@ -1,8 +1,34 @@
+basic.showLeds(`
+    # . . . #
+    # . . . #
+    # # # # #
+    # . . . #
+    # . . . #
+    `)
+basic.showLeds(`
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    `)
+basic.showString("Nimrod")
+basic.showString("9")
+basic.showNumber(8)
+basic.showNumber(7)
+basic.showNumber(6)
+basic.showNumber(5)
+basic.showNumber(4)
+basic.showNumber(3)
+basic.showNumber(2)
+basic.showNumber(1)
+basic.showNumber(0)
+basic.showIcon(IconNames.Heart)
 basic.forever(function () {
     maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
-    maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
+    maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
     basic.pause(1000)
-    maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOn)
+    maqueen.writeLED(maqueen.LED.LEDLeft, maqueen.LEDswitch.turnOff)
     maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOn)
     basic.pause(1000)
 })
