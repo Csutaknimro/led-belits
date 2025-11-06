@@ -1,6 +1,6 @@
-music.setVolume(29)
+music.setVolume(103)
 music.play(music.stringPlayable("B A G A G F A C5 ", 120), music.PlaybackMode.UntilDone)
-maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 50)
+maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 88)
 basic.showString("Hello!")
 basic.showString("Nimrod")
 basic.showString("9")
