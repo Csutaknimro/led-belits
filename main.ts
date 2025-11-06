@@ -1,18 +1,5 @@
 maqueen.motorStop(maqueen.Motors.All)
-basic.showLeds(`
-    # . . . #
-    # . . . #
-    # # # # #
-    # . . . #
-    # . . . #
-    `)
-basic.showLeds(`
-    . . # . .
-    . . # . .
-    . . # . .
-    . . # . .
-    . . # . .
-    `)
+basic.showString("Hello!")
 basic.showString("Nimrod")
 basic.showString("9")
 basic.showNumber(8)
