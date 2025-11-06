@@ -1,3 +1,4 @@
+maqueen.motorStop(maqueen.Motors.All)
 basic.showLeds(`
     # . . . #
     # . . . #
